@@ -83,8 +83,6 @@ class SinglyLinkedList:
             print("Position out of bounds!")
             return
         current.next = current.next.next
-
-
 if __name__ == "__main__":
     sll = SinglyLinkedList()
     sll.insert_at_beginning(10)
